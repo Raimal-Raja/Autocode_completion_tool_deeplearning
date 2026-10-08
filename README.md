@@ -22,12 +22,11 @@ The model is already trained and saved in model/fine_tuned/
 
 ---
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [CodeAutocomplete_Colab.ipynb](CodeAutocomplete_Colab.ipynb)
-- [README.md](README.md)
 - [app](app)
 - [logs](logs)
 - [requirements.txt](requirements.txt)
@@ -59,7 +58,11 @@ Training and inference require compatible model weights and dependencies; model 
 
 ### Validation
 
-Reviewed on 2026-10-08. Python syntax checks passed for 2 source files. Syntax validation does not establish runtime correctness or dependency compatibility.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. 2 existing Python files passed syntax checks; changed files and new regression tests were checked separately. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
